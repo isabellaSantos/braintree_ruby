@@ -11,9 +11,9 @@ Gem::Specification.new do |s|
   s.email = "code@getbraintree.com"
   s.homepage = "https://www.braintreepayments.com/"
   s.files = Dir.glob ["README.rdoc", "LICENSE", "lib/**/*.{rb,crt}", "spec/**/*", "*.gemspec"]
-  s.add_dependency "builder", ">= 3.2.4"
+  s.add_dependency "builder", ">= 3.2.3"
   s.add_dependency "rexml", ">= 3.1.9" # Use rexml version associated with minimum supported Ruby version
-  s.required_ruby_version = ">=2.6.0"
+  s.required_ruby_version = ">=2.3.8"
   s.metadata = {
     "bug_tracker_uri" => "https://github.com/braintree/braintree_ruby/issues",
     "changelog_uri" => "https://github.com/braintree/braintree_ruby/blob/master/CHANGELOG.md",
